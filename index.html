@@ -23,14 +23,21 @@
              background-size: cover;
              background-position: center;
          }
+         /* Corrected Section Title Styling */
          .section-title {
-             @apply text-3xl md:text-4xl font-bold text-gray-800 mb-4 text-center;
+             font-size: 2.25rem; /* 36px */
+             line-height: 2.5rem; /* 40px */
+             font-weight: 700;
+             color: #1f2937; /* gray-800 */
+             margin-bottom: 1rem;
+             text-align: center;
          }
          .section-subtitle {
              @apply text-lg text-gray-600 mb-8 text-center max-w-3xl mx-auto;
          }
+         /* Updated CTA Button Style */
          .cta-button {
-             @apply inline-block bg-gradient-to-r from-red-600 to-red-800 text-white font-bold py-3 px-8 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+             @apply inline-block bg-gradient-to-r from-red-500 via-red-600 to-orange-500 text-white font-bold py-3 px-8 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1;
          }
          .nav-link {
               @apply text-gray-700 hover:text-red-700 transition duration-300;
@@ -272,7 +279,7 @@
 
          <section id="testimonials" class="py-20 bg-red-700 text-white">
              <div class="container mx-auto px-6">
-                 <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">Trusted by Local Builders</h2>
+                 <h2 class="section-title text-white">Trusted by Local Builders</h2>
                  <div class="grid md:grid-cols-2 gap-8">
                      <div class="bg-white bg-opacity-10 p-8 rounded-lg">
                          <p class="italic mb-4">"MAA BRICKS INDUSTRY is our go-to supplier in Mangaldoi. Their consistency and on-time delivery are unmatched. The strength of their bricks gives us confidence for all our local projects."</p>
