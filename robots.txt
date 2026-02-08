@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maabricks-mangaldoi.github.io/maabricks/sitemap.xml
